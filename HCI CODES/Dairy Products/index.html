@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Products</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .column {
+            width: 48%;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        .list-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        ul, ol {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Dairy Products </h1>
+    
+    <div class="columns">
+        <div class="column">
+            <div class="list-title">Dairy Products</div>
+            <ul type="disc">
+                <li>Milk</li>
+                <li>Cheese
+                    <ol type="I">
+                        <li>Blue Cheese</li>
+                        <li>Feta</li>
+                    </ol>
+                </li>
+                <li>Butter</li>
+            </ul>
+        </div>
+        
+        <div class="column">
+            <div class="list-title">Dairy Products</div>
+            <ol type="I">
+                <li>Milk</li>
+                <li>Cheese
+                    <ol type="A">
+                        <li>Blue Cheese</li>
+                        <li>Feta</li>
+                    </ol>
+                </li>
+                <li>Butter</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
